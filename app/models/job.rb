@@ -2,7 +2,7 @@ class Job < ApplicationRecord
 
   def publish!
     self.is_hidden = false
-    self.save
+    self.save!
   end
 
   def hide!
