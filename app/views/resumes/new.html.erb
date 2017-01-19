@@ -3,8 +3,8 @@
 <hr>
 
 <%= simple_form_for [@job, @resume] do |f| %>
-<%= f.input :content %>
-<%= f.input :attachment %>
+<%= f.input :content, :label => "你想说的话" %>
+<%= f.input :attachment, :label => "上传简历（限PDF格式）" %>
 
-<%= f.submit "送出" %>
+<%= f.submit "上传" %>
 <% end %>
