@@ -13,7 +13,7 @@ class ResumesController < ApplicationController
     @resume.user = current_user
 
     if @resume.save
-      flash[:notice] = "成功提交简历"
+      flash[:notice] = "You have already submitted resume successfully."
       redirect_to job_path(@job)
     else
       render :new
