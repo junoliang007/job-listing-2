@@ -25,8 +25,11 @@ namespace :admin do
     end
   end
 
+  resources :welcome do
 
-root 'jobs#index'
+    end
+
+root 'welcome#index'
 end
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
