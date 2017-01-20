@@ -15,6 +15,40 @@
  *= require font-awesome
  */
 
+ .jumbotron {
+  background-image:url('https://ww2.sinaimg.cn/large/006tNc79gy1fbxe8mchp8j31kw0siu12.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+
+}
+
+
+.title {
+  font-family: "Century Schoolbook", "Gill Sans", "Times";
+  font-size: 3em;
+  text-align: left;
+  margin-top: 140px;
+  padding-left: 120px;
+}
+
+.slogan {
+  font-family: "Candara", "Gill Sans", "Times";
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: left;
+  padding-left: 120px;
+  color: #242324;
+  top: 12px;
+}
+
+.lead {
+  margin-top: 80px;
+  text-align: left;
+  padding-left: 275px;
+  color: white;
+}
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
