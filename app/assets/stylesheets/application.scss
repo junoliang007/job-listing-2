@@ -15,6 +15,8 @@
  *= require font-awesome
  */
 
+// <!--jumbotron setting -->
+
  .jumbotron {
   background-image:url('https://ww2.sinaimg.cn/large/006tNc79gy1fbxe8mchp8j31kw0siu12.jpg');
   background-repeat: no-repeat;
@@ -48,7 +50,13 @@
   color: white;
 }
 
+// <!--navbar setting -->
 
+.navbar-default {
+    background-color: #212121;//背景颜色
+    border-color: #212121;//边框色
+    margin-bottom: 0;//底部 margin 不撑开距离
+}
 
 
 @import "bootstrap-sprockets";
