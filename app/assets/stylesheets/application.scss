@@ -19,8 +19,7 @@
   background-image:url('https://ww2.sinaimg.cn/large/006tNc79gy1fbxe8mchp8j31kw0siu12.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
-
+  margin-top: -20px;
 }
 
 
@@ -28,7 +27,7 @@
   font-family: "Century Schoolbook", "Gill Sans", "Times", serif;
   font-size: 3em;
   text-align: left;
-  margin-top: 140px;
+  margin-top: 160px;
   padding-left: 120px;
 }
 
@@ -43,11 +42,13 @@
 }
 
 .lead {
-  margin-top: 80px;
+  margin-top: 60px;
   text-align: left;
   padding-left: 275px;
   color: white;
 }
+
+
 
 
 @import "bootstrap-sprockets";
