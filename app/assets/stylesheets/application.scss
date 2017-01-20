@@ -19,7 +19,8 @@
   background-image:url('https://ww2.sinaimg.cn/large/006tNc79gy1fbxe8mchp8j31kw0siu12.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
+  padding-bottom: 110px;
+  margin-top: -20px;
 
 }
 
@@ -28,9 +29,19 @@
   font-family: "Century Schoolbook", "Gill Sans", "Times", serif;
   font-size: 3em;
   text-align: left;
-  margin-top: 140px;
+  margin-top: 250px;
+  margin-bottom: 50px;
   padding-left: 120px;
+  padding-top: -500px;
 }
+
+// .title {
+//   font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+//   text-align: center;
+//   margin-top: 200px;
+//   margin-bottom: 80px;
+// }
+
 
 .slogan {
   font-family: "Candara", "Gill Sans", "Georgia", "Times";
