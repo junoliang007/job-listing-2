@@ -5,18 +5,18 @@
 </button>
 <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
   <li>
-    <%= link_to("按照薪资下限排序", jobs_path(:order => "by_lower_bound")) %>
+    <%= link_to("按照薪资下限", jobs_path(:order => "by_lower_bound")) %>
   </li>
   <li>
-    <%= link_to("按照薪资上限排序", jobs_path(:order => "by_upper_bound")) %>
+    <%= link_to("按照薪资上限", jobs_path(:order => "by_upper_bound")) %>
   </li>
   <li>
-    <%= link_to("按照发布时间排序", jobs_path ) %>
+    <%= link_to("按照发布时间", jobs_path ) %>
   </li>
 </ul>
 </div>
 
-<table class="table table-boldered">
+<table class="table table-boldered table-striped custab" >
   <thead>
     <tr>
         <td>职缺</td>
