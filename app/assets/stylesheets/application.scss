@@ -19,7 +19,7 @@
   background-image:url('https://ww2.sinaimg.cn/large/006tNc79gy1fbxe8mchp8j31kw0siu12.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 
@@ -60,7 +60,8 @@
 .navbar-default {
     background-color: #fff;//背景颜色
     border-color: #fff;//边框色
-    margin-bottom: 0;//底部 margin 不撑开距离
+    margin-bottom: 20px;//底部 margin 不撑开距离
+    margin-top: 20px;//底部 margin 不撑开距离
 }
 
 
@@ -85,10 +86,8 @@
   font-family:  "Geneva", "Gill Sans", serif;
   font-size: 16px;
   color: #333333;
-  // text-align: center;
   margin-right: 20px;
   padding-right: 20px;
-  // margin-right: 80px;
   padding-bottom: 5px;
 
 
@@ -98,8 +97,6 @@
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #333333;
-  // padding-top: 10px;//通过padding来决定btn的大小
-  // padding-left: 15px;
   border-bottom-style:solid;
   border-color: #E61C64;
   border-width: 2px;
