@@ -19,7 +19,7 @@
   background-image:url('https://ww2.sinaimg.cn/large/006tNc79gy1fbxe8mchp8j31kw0siu12.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 
@@ -49,8 +49,39 @@
 }
 
 
-
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+
+
+.navbar-default {
+    background-color: #fff;//背景颜色
+    border-color: #fff;//边框色
+    margin-bottom: 0;//底部 margin 不撑开距离
+}
+
+
+.navbar-default .navbar-brand {
+   font-family: "Century Schoolbook", "Gill Sans", "Times", serif;
+   color: #333333;//字体颜色
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 135px;
+   padding-right: 40px;
+   line-height: 30px;//文字行高
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #D9534F;//鼠标放置在链接上的文字颜色
+  background-color: transparent;//鼠标放置在链接上的背景颜色，这里设为透明
+}
+
+
+.navbar-default .navbar-right {
+  //  font-family: "Century Schoolbook", "Gill Sans", "Times", serif;
+  //  padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 805px;
+   padding-right: 10px;
+ }
