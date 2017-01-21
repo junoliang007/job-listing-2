@@ -135,3 +135,48 @@
     background-color: #23429E;//鼠标放置在btn上的背景颜色
     border-color: #23429E;//鼠标放置在btn上的边框颜色
 }
+
+
+
+.btn-add {
+    color: #fff;//字体颜色
+    background-color: #919191;//背景颜色
+    border-color: #919191;//边框颜色
+    margin-right: 57px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.btn-add:hover {
+    color: #fff;//字体颜色
+    background-color: #E61C64;//鼠标放置在btn上的背景颜色
+    border-color: #E61C64;//鼠标放置在btn上的边框颜色
+
+}
+
+
+.btn-info {
+    color: #fff;//字体颜色
+    background-color: #919191;//背景颜色
+    border-color: #919191;//边框颜色
+}
+
+.btn-info:hover {
+    color: #fff;//字体颜色
+    background-color: #E61C64;//鼠标放置在btn上的背景颜色
+    border-color: #E61C64;//鼠标放置在btn上的边框颜色
+}
+
+
+.custab{
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5% 0;
+  box-shadow: 3px 3px 2px #ccc;
+  transition: 0.5s;
+}
+
+.custab:hover{
+  box-shadow: 3px 3px 0px transparent;
+  transition: 0.5s;
+}
