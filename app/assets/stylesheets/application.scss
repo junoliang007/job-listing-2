@@ -256,7 +256,20 @@ input::-webkit-input-placeholder {
 	margin-top: 5px;
 }
 
+.login-button:hover{
+  background-color: #E61C64;//鼠标放置在btn上的背景颜色
+  border-color: #E61C64;//鼠标放置在btn上的边框颜色
+}
+
 .login-register{
-	font-size: 11px;
+	font-size: 16px;
 	text-align: center;
+}
+
+
+.login-register > a:hover,
+.login-register > a:focus {
+  color: #E61C64;
+  border-color: #E61C64;
+  border-width: 2px;
 }
