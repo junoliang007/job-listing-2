@@ -37,7 +37,7 @@
   margin-top: 20px;
   margin-bottom: 50px;
   text-align: left;
-  padding-left: 120px;
+  padding-left: 125px;
   color: #242324;
   top: 12px;
 }
@@ -71,7 +71,7 @@
    color: #333333;//字体颜色
    padding-top: 5px;
    padding-bottom: 10px;
-   padding-left: 135px;
+   padding-left: 120px;
    padding-right: 40px;
    line-height: 40px;//文字行高
 }
@@ -81,6 +81,15 @@
   color: #E61C64;//鼠标放置在链接上的文字颜色
   background-color: transparent;//鼠标放置在链接上的背景颜色，这里设为透明
 }
+
+.navbar-brand > img {
+    display: inline-block;	//图片和链接文字显示在同一行
+    margin-right: 7px; //图片和链接文字拉开一点距离
+    margin-bottom: 5px;
+    width: 24px; //定制图片宽度
+    height: 24px; //定制图片高度
+}
+
 
 .navbar-default .navbar-nav > li > a{
   font-family:  "Geneva", "Gill Sans", serif;
