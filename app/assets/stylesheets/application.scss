@@ -50,6 +50,26 @@
 }
 
 
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+.bg-lightgray
+{
+    background-color:LightGray;
+}
+
+
+ #social-fb:hover {
+     color: #E61C64;
+ }
+ #social-tw:hover {
+     color: #E61C64;
+ }
+ #social-gp:hover {
+     color: #E61C64;
+ }
+ #social-em:hover {
+     color: #E61C64;
+ }
+
 
 
 @import "bootstrap-sprockets";
@@ -294,5 +314,22 @@ input::-webkit-input-placeholder {
 .login-register > a:focus {
   color: #E61C64;
   border-color: #E61C64;
-  border-width: 2px;
+
+}
+
+
+.login-register > .active > a,
+.login-register > .active > a:hover,
+.login-register > .active > a:focus {
+  border-color: #E61C64;
+  background-color: #E61C64;
+
+}
+
+.login-register > .open > a,
+.login-register > .open > a:focus,
+.login-register > .open > a:hover {
+    background-color: #E61C64;
+    color: #E61C64;
+    border-color: #E61C64;
 }
