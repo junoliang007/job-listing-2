@@ -270,14 +270,16 @@ input::-webkit-input-placeholder {
 .login-button > .active > a:hover,
 .login-button > .active > a:focus {
   color: #E61C64;
-  // background-color: #E61C64;
+  background-color: #E61C64;
+  border-color: #E61C64;
 }
 
 .login-button > .open > a,
 .login-button > .open > a:focus,
 .login-button> .open > a:hover {
-    // background-color: #E61C64;
+    background-color: #E61C64;
     color: #E61C64;
+    border-color: #E61C64;
 }
 
 
