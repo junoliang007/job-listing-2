@@ -190,21 +190,25 @@
  * General styles
  */
 
-.main{
-  background-image:url('http://www.intrawallpaper.com/static/images/gradient-background.jpg');
+ .main{
+  background-image:url('https://ww1.sinaimg.cn/large/006y8lVagy1fbz7fzfjadj31kw0zkdtz.jpg');
   // height: 100%;
  	background-repeat: no-repeat;
-  background-size: auto;
-  margin-left: 1px;
-  margin-right: 1px;
+  // background-size: auto;
+  margin-left: -130px;
+  margin-right: -130px;
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: 100px;
+}
 
-
+.panel-heading{
+  margin-top: -60px;
 }
 
 
-h1.title {
+
+p.title {
 	font-size: 20px;
   font-family:  "Geneva", "Gill Sans", serif;
   font-weight: 400;
@@ -214,7 +218,7 @@ h1.title {
 }
 
 hr{
-	width: 20%;
+	width: 10%;
 	color: #fff;
 }
 
@@ -260,6 +264,23 @@ input::-webkit-input-placeholder {
   background-color: #E61C64;//鼠标放置在btn上的背景颜色
   border-color: #E61C64;//鼠标放置在btn上的边框颜色
 }
+
+
+.login-button > .active > a,
+.login-button > .active > a:hover,
+.login-button > .active > a:focus {
+  color: #E61C64;
+  // background-color: #E61C64;
+}
+
+.login-button > .open > a,
+.login-button > .open > a:focus,
+.login-button> .open > a:hover {
+    // background-color: #E61C64;
+    color: #E61C64;
+}
+
+
 
 .login-register{
 	font-size: 16px;
