@@ -248,13 +248,14 @@
 @import "font-awesome";
 
 
+// for navbar //
+
 .navbar-default {
     background-color: #fff;//背景颜色
     border-color: #fff;//边框色
     margin-bottom: 20px;//底部 margin 不撑开距离
     margin-top: 20px;//底部 margin 不撑开距离
 }
-
 
 .navbar-default .navbar-brand {
    font-family:  "Century","Georgia", serif;
@@ -281,17 +282,13 @@
     height: 24px; //定制图片高度
 }
 
-
 .navbar-default .navbar-nav > li > a{
-  font-family:  "Geneva", "Gill Sans", serif;
-  font-size: 16px;
-  color: #333333;
-  margin-right: 20px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-
-
-
+   font-family:  "Geneva", "Gill Sans", serif;
+   font-size: 16px;
+   color: #333333;
+   margin-right: 20px;
+   padding-right: 20px;
+   padding-bottom: 5px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -301,22 +298,20 @@
   border-color: #E61C64;
   border-width: 2px;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #E61C64;
-  // background-color: #E61C64;
+  background-color: #E61C64;
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
-    // background-color: #E61C64;
+    background-color: #E61C64;
     color: #E61C64;
 }
-
-
-
 
 
 .btn-add {
@@ -332,9 +327,7 @@
     color: #fff;//字体颜色
     background-color: #E61C64;//鼠标放置在btn上的背景颜色
     border-color: #E61C64;//鼠标放置在btn上的边框颜色
-
 }
-
 
 .btn-info {
     color: #fff;//字体颜色
@@ -364,12 +357,8 @@
 
 
 
-/*
- * Specific styles of signin, register, component
- */
-/*
- * General styles
- */
+// for Specific styles of signin, register, component//
+
 
  .main{
   background-image:url('https://ww1.sinaimg.cn/large/006y8lVagy1fbz7fzfjadj31kw0zkdtz.jpg');
@@ -386,7 +375,6 @@
 .panel-heading{
   margin-top: -60px;
 }
-
 
 
 p.title {
@@ -426,7 +414,6 @@ input::-webkit-input-placeholder {
     -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-
 }
 
 .main-center{
@@ -434,7 +421,6 @@ input::-webkit-input-placeholder {
  	margin: 0 auto;
  	max-width: 330px;
     padding: 40px 40px;
-
 }
 
 .login-button{
@@ -452,7 +438,6 @@ input::-webkit-input-placeholder {
 .login-button > .active > a:focus {
   border-color: #E61C64;
   background-color: #E61C64;
-
 }
 
 .login-button > .open > a,
@@ -462,7 +447,6 @@ input::-webkit-input-placeholder {
     color: #E61C64;
     border-color: #E61C64;
 }
-
 
 
 .login-register{
@@ -475,7 +459,6 @@ input::-webkit-input-placeholder {
 .login-register > a:focus {
   color: #E61C64;
   border-color: #E61C64;
-
 }
 
 
@@ -484,7 +467,6 @@ input::-webkit-input-placeholder {
 .login-register > .active > a:focus {
   border-color: #E61C64;
   background-color: #E61C64;
-
 }
 
 .login-register > .open > a,
