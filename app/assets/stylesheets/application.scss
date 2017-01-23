@@ -253,19 +253,17 @@
 .navbar-default {
     background-color: #fff;//背景颜色
     border-color: #fff;//边框色
-    margin-bottom: 20px;//底部 margin 不撑开距离
-    margin-top: 20px;//底部 margin 不撑开距离
+    margin-bottom: 0;//底部 margin 不撑开距离
+    margin-top: 0;//底部 margin 不撑开距离
 }
 
 .navbar-default .navbar-brand {
    font-family:  "Century","Georgia", serif;
    font-weight: bold;
    color: #333333;//字体颜色
-   padding-top: 5px;
-   padding-bottom: 10px;
    padding-left: 120px;
    padding-right: 40px;
-   line-height: 40px;//文字行高
+   line-height: 30px;//文字行高
 }
 
 .navbar-default .navbar-brand:hover,
@@ -282,13 +280,20 @@
     height: 24px; //定制图片高度
 }
 
-.navbar-default .navbar-nav > li > a{
+.navbar-default .navbar-right {
+  margin-right: 100px;
+}
+
+.navbar-default .navbar-left {
+  margin-top: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
    font-family:  "Geneva", "Gill Sans", serif;
    font-size: 16px;
    color: #333333;
-   margin-right: 20px;
-   padding-right: 20px;
-   padding-bottom: 5px;
+   padding-right: 23px;
+   padding-left: 23px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -312,6 +317,63 @@
     background-color: #E61C64;
     color: #E61C64;
 }
+
+.fa-h-square {
+  position: absolute;
+  top: 4px;
+  left: 105px;
+  width: 30px;
+  color: #E61C64;
+}
+
+.navbar-right .login .log-in-btn {
+  color: #E61C64;
+}
+
+.log-in-btn {
+    display: block;
+    border: 1px solid rgba(230,28,100,0.86);
+    background-color: transparent;
+    margin: 14px 5px 14px 35px;
+    border-radius: 6px;
+    height: 32px;
+    width: 68px;
+    color: #fff;
+    text-align: center;
+    padding: 0 !important;
+    line-height: 32px !important;
+}
+
+.log-in-btn:hover {
+    color: #fff !important;
+    background-color: rgba(230,28,100,0.86) !important;
+}
+
+.navbar-right .signup .sign-up-btn {
+  color: #fff;
+}
+
+.sign-up-btn {
+    display: block;
+    border: 1px solid #E61C64;
+    background-color: rgba(230,28,100,0.86);
+    margin: 14px 0 14px 15px;
+    border-radius: 6px;
+    height: 32px;
+    width: 68px;
+    color: #fff;
+    text-align: center;
+    padding: 0 !important;
+    line-height: 32px !important;
+}
+
+.sign-up-btn:hover {
+    color: #fff !important;
+    background-color: rgba(230,28,100,0.99) !important;
+}
+
+
+
 
 
 .btn-add {
