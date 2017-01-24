@@ -3,10 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+// for jobs index page //
+
 .job-list {
   margin-top: 40px;
 }
-
 
 .pull-right {
       margin-top: 20px;
@@ -61,7 +62,6 @@
   font-weight: bolder;
 }
 
-
 .row-data {
   height: 60px;
   font-family: "Geneva", "Gill Sans", serif;
@@ -74,4 +74,54 @@
       color: #fff !important;
       background-color: rgb(230,28,100) !important;
       border-color: rgb(230,28,100) !important;
+}
+
+
+// for jobs show page //
+
+.detail-panel {
+  height: 500px;
+  background-color: #edeeef
+}
+
+.job-detail {
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 30px;
+}
+
+.job-detail h1 {
+  font-family: "Geneva", "Gill Sans", serif;
+  font-size: 40px;
+  margin-bottom: 50px;
+
+}
+
+.job-detail p {
+  font-family: "Geneva", "Gill Sans", serif;
+  font-size: 20px;
+  color: #595958
+}
+
+
+.apply-this-vacancy {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.apply-this-vacancy .btn-default {
+    font-family: "Geneva", "Gill Sans", serif;
+    font-size: 25px;
+    color: #fff !important;
+    background-color: rgb(230,28,100) !important;
+    border-color: rgb(230,28,100) !important;
+    width: 180px;
+    height: 55px;
+}
+
+.apply-this-vacancy :hover {
+    color: #fff !important;
+    background-color: rgb(35,66,158) !important;
+    border-color: rgb(35,66,158) !important;
+    text-align: center;
 }
