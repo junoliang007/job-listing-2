@@ -419,220 +419,121 @@
 
 
 
-// for Specific styles of signin, register, component//
+//for Specific styles of signin, register, component//
 
-//  .main{
-//   background-image:url('https://ww1.sinaimg.cn/large/006y8lVagy1fbz7fzfjadj31kw0zkdtz.jpg');
-//   // height: 100%;
-//  	background-repeat: no-repeat;
-//   // background-size: auto;
-//   margin-left: -130px;
-//   margin-right: -130px;
-//   padding-left: 100px;
-//   padding-right: 100px;
-//   padding-bottom: 100px;
-// }
-//
-// .panel-heading{
-//   margin-top: -60px;
-// }
-//
-//
-// p.title {
-// 	font-size: 20px;
-//   font-family:  "Geneva", "Gill Sans", serif;
-//   font-weight: 400;
-// 	color: #fff;
-//   text-align:center;
-//   padding-right: 125px;
-// }
-//
-// hr{
-// 	width: 10%;
-// 	color: #fff;
-// }
-//
-// .form-group{
-// 	margin-bottom: 15px;
-// }
-//
-// label{
-// 	margin-bottom: 15px;
-// }
-//
-// input,
-// input::-webkit-input-placeholder {
-//     font-size: 11px;
-//     padding-top: 3px;
-// }
-//
-// .main-login{
-//  	background-color: #fff;
-//     /* shadows and rounded borders */
-//     -moz-border-radius: 2px;
-//     -webkit-border-radius: 2px;
-//     border-radius: 2px;
-//     -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-//     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-//     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-// }
-//
-// .main-center{
-//  	margin-top: 30px;
-//  	margin: 0 auto;
-//  	max-width: 330px;
-//     padding: 40px 40px;
-// }
-//
-// .login-button{
-// 	margin-top: 5px;
-// }
-//
-// .login-button:hover{
-//   background-color: #E61C64;//鼠标放置在btn上的背景颜色
-//   border-color: #E61C64;//鼠标放置在btn上的边框颜色
-// }
-//
-//
-// .login-button > .active > a,
-// .login-button > .active > a:hover,
-// .login-button > .active > a:focus {
-//   border-color: #E61C64;
-//   background-color: #E61C64;
-// }
-//
-// .login-button > .open > a,
-// .login-button > .open > a:focus,
-// .login-button> .open > a:hover {
-//     background-color: #E61C64;
-//     color: #E61C64;
-//     border-color: #E61C64;
-// }
-//
-//
-// .login-register{
-// 	font-size: 16px;
-// 	text-align: center;
-// }
-//
-//
-// .login-register > a:hover,
-// .login-register > a:focus {
-//   color: #E61C64;
-//   border-color: #E61C64;
-// }
-//
-//
-// .login-register > .active > a,
-// .login-register > .active > a:hover,
-// .login-register > .active > a:focus {
-//   border-color: #E61C64;
-//   background-color: #E61C64;
-// }
-//
-// .login-register > .open > a,
-// .login-register > .open > a:focus,
-// .login-register > .open > a:hover {
-//     background-color: #E61C64;
-//     color: #E61C64;
-//     border-color: #E61C64;
-// }
-
-// another css for login and sign up //
-
-@import url(http://fonts.googleapis.com/css?family=Roboto);
-
-/****** LOGIN MODAL ******/
-.loginmodal-container {
-  padding: 30px;
-  max-width: 350px;
-  width: 100% !important;
-  background-color: #F7F7F7;
-  margin: 0 auto;
-  border-radius: 2px;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  font-family: roboto;
+ .main{
+  background-image:url('https://ww1.sinaimg.cn/large/006y8lVagy1fbz7fzfjadj31kw0zkdtz.jpg');
+  // height: 100%;
+ 	background-repeat: no-repeat;
+  // background-size: auto;
+  margin-left: -130px;
+  margin-right: -130px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
 }
 
-.loginmodal-container h1 {
-  text-align: center;
-  font-size: 1.8em;
-  font-family: roboto;
+.panel-heading{
+  margin-top: -60px;
 }
 
-.loginmodal-container input[type=submit] {
-  width: 100%;
-  display: block;
-  margin-bottom: 10px;
-  position: relative;
-}
 
-.loginmodal-container input[type=text], input[type=password] {
-  height: 44px;
-  font-size: 16px;
-  width: 100%;
-  margin-bottom: 10px;
-  -webkit-appearance: none;
-  background: #fff;
-  border: 1px solid #d9d9d9;
-  border-top: 1px solid #c0c0c0;
-  /* border-radius: 2px; */
-  padding: 0 8px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-
-.loginmodal-container input[type=text]:hover, input[type=password]:hover {
-  border: 1px solid #b9b9b9;
-  border-top: 1px solid #a0a0a0;
-  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-}
-
-.loginmodal {
-  text-align: center;
-  font-size: 14px;
-  font-family: 'Arial', sans-serif;
-  font-weight: 700;
-  height: 36px;
-  padding: 0 8px;
-/* border-radius: 3px; */
-/* -webkit-user-select: none;
-  user-select: none; */
-}
-
-.loginmodal-submit {
-  /* border: 1px solid #3079ed; */
-  border: 0px;
-  color: #fff;
-  text-shadow: 0 1px rgba(0,0,0,0.1);
-  background-color: #4d90fe;
-  padding: 17px 0px;
-  font-family: roboto;
-  font-size: 14px;
-  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
-}
-
-.loginmodal-submit:hover {
-  /* border: 1px solid #2f5bb7; */
-  border: 0px;
-  text-shadow: 0 1px rgba(0,0,0,0.3);
-  background-color: #357ae8;
-  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
-}
-
-.loginmodal-container a {
-  text-decoration: none;
-  color: #666;
+p.title {
+	font-size: 20px;
+  font-family:  "Geneva", "Gill Sans", serif;
   font-weight: 400;
-  text-align: center;
-  display: inline-block;
-  opacity: 0.6;
-  transition: opacity ease 0.5s;
+	color: #fff;
+  text-align:center;
+  padding-right: 125px;
 }
 
-.login-help{
-  font-size: 12px;
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 330px;
+    padding: 40px 40px;
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-button:hover{
+  background-color: #E61C64;//鼠标放置在btn上的背景颜色
+  border-color: #E61C64;//鼠标放置在btn上的边框颜色
+}
+
+
+.login-button > .active > a,
+.login-button > .active > a:hover,
+.login-button > .active > a:focus {
+  border-color: #E61C64;
+  background-color: #E61C64;
+}
+
+.login-button > .open > a,
+.login-button > .open > a:focus,
+.login-button> .open > a:hover {
+    background-color: #E61C64;
+    color: #E61C64;
+    border-color: #E61C64;
+}
+
+
+.login-register{
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.login-register > a:hover,
+.login-register > a:focus {
+  color: #E61C64;
+  border-color: #E61C64;
+}
+
+
+.login-register > .active > a,
+.login-register > .active > a:hover,
+.login-register > .active > a:focus {
+  border-color: #E61C64;
+  background-color: #E61C64;
+}
+
+.login-register > .open > a,
+.login-register > .open > a:focus,
+.login-register > .open > a:hover {
+    background-color: #E61C64;
+    color: #E61C64;
+    border-color: #E61C64;
 }
