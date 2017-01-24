@@ -1,3 +1,15 @@
 // Place all the styles related to the jobs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.pull-right {
+      margin-top: 10px;
+      margin-right: 900px;
+      padding-bottom: 5px;
+}
+
+.pull-right :hover {
+      color: #fff !important;
+      background-color: rgb(230,28,100) !important;
+}
