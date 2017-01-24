@@ -1,35 +1,42 @@
 <div class="btn-group pull-right" role="group" aria-label="...">
       <%= link_to("By Low Salary", jobs_path(:order => "by_lower_bound"), :class => "btn btn-default", :data => {:toggle => "button"}) %>
       <%= link_to("By Up Salary", jobs_path(:order => "by_upper_bound"), :class => "btn btn-default") %>
-     <%= link_to("By Publish Time", jobs_path, :class => "btn btn-default") %>
+      <%= link_to("By Publish Time", jobs_path, :class => "btn btn-default") %>
    </div>
 <table class="table table-boldered table-striped custab" >
     <thead>
-    <tr>
+    <tr class="row-title">
       <th>Vacancy</th>
+      <th>Apply</th>
       <th>Salary</th>
-    <th>Location</th>
-    <th>Exprience</th>
-    <th>Education</th>
-    <th>Publish Time</th>
+      <th>Location</th>
+      <th>Exprience</th>
+      <th>Education</th>
+      <th>Publish Time</th>
     </tr>
-
     </thead>
     <tbody>
 
   <% @jobs.each do |job| %>
-  <tr>
+  <tr class="row-data">
     <td width="20%"><%= link_to(job.title, job_path(job), :target => "_blank") %></td>
-    <td width="10%">
-      <span class="badge badge-info">
+    <td class="apply-btn" width="5%">
+      <%= link_to("Quick Apply", job_path(job), :target => "_blank", :class => "btn btn-default") %>
+      </td>
+    <td width="15%">
+      <span class="salary-info">
         <span class="fa fa-rmb"></span><%= job.wage_lower_bound %> - <%= job.wage_upper_bound%>
       </span>
     </td>
-    <td width="10%"><%= job.working_city %></td>
-    <td width="10%"><%= job.working_exprience %></td>
-    <td width="10%"><%= job.educational_requirement %></td>
-    <td width="10%"><%= local_time(job.created_at, '%B %e, %Y %l:%M%p') %></td>
+    <td width="5%"><%= job.working_city %></td>
+    <td width="5%"><%= job.working_exprience %></td>
+    <td width="5%"><%= job.educational_requirement %></td>
+    <td width="20%"><%= local_time(job.created_at, '%B %e, %Y %l:%M%p') %></td>
   </tr>
   <% end %>
 </tbody>
 </table>
+
+<div class="text-center">
+  <%= will_paginate @jobs, renderer: BootstrapPagination::Rails %>
+</div>

@@ -4,12 +4,69 @@
 
 
 .pull-right {
-      margin-top: 10px;
-      margin-right: 900px;
-      padding-bottom: 5px;
+      margin-top: 20px;
+      margin-right: 960px;
+      padding: 0;
 }
 
 .pull-right :hover {
       color: #fff !important;
       background-color: rgb(230,28,100) !important;
+      border-color: rgb(230,28,100) !important;
+}
+
+.table-striped .custab {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5% 0;
+  box-shadow: 3px 3px 2px #ccc;
+  transition: 0.5s;
+}
+
+.custab {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5% 0;
+  box-shadow: 3px 3px 2px #ccc;
+  transition: 0.5s;
+}
+
+.custab:hover{
+  box-shadow: 3px 3px 0px transparent;
+  transition: 0.5s;
+}
+
+.custab thead {
+  background-color: #337ab7
+}
+
+.row-title {
+  font-family: "Geneva", "Gill Sans", serif;
+  font-size:20px;
+  color: #fff
+}
+
+.row-title th {
+  text-align: center;
+}
+
+.salary-info {
+  font-family: "Geneva", "Gill Sans", serif;
+  font-size:18px;
+  font-weight: bolder;
+}
+
+
+.row-data {
+  height: 60px;
+  font-family: "Geneva", "Gill Sans", serif;
+  font-size:16px;
+  text-align: center;
+  color: #595958
+}
+
+.apply-btn :hover {
+      color: #fff !important;
+      background-color: rgb(230,28,100) !important;
+      border-color: rgb(230,28,100) !important;
 }

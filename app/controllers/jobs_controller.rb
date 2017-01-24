@@ -20,6 +20,7 @@ before_action :authenticate_user!, only: [:new, :create, :update, :edit, :destro
      else
      Job.published.recent
    end
+   @jobs = @jobs.paginate(:page => params[:page], :per_page => 5)
  end
 
    def new

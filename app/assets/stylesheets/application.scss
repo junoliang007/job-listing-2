@@ -366,8 +366,6 @@
 }
 
 
-
-
 .btn-add {
     color: #fff;//字体颜色
     background-color: #919191;//背景颜色
@@ -396,142 +394,8 @@
 }
 
 
-.custab{
-  border: 1px solid #ccc;
-  padding: 5px;
-  margin: 5% 0;
-  box-shadow: 3px 3px 2px #ccc;
-  transition: 0.5s;
-}
 
-.custab:hover{
-  box-shadow: 3px 3px 0px transparent;
-  transition: 0.5s;
-}
-
-
-
-//for Specific styles of signin, register, component//
-
- .main{
-  background-image:url('https://ww1.sinaimg.cn/large/006y8lVagy1fbz7fzfjadj31kw0zkdtz.jpg');
-  // height: 100%;
- 	background-repeat: no-repeat;
-  // background-size: auto;
-  margin-left: -130px;
-  margin-right: -130px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 100px;
-}
-
-.panel-heading{
-  margin-top: -60px;
-}
-
-
-p.title {
-	font-size: 20px;
-  font-family:  "Geneva", "Gill Sans", serif;
-  font-weight: 400;
-	color: #fff;
-  text-align:center;
-  padding-right: 125px;
-}
-
-hr{
-	width: 10%;
-	color: #fff;
-}
-
-.form-group{
-	margin-bottom: 15px;
-}
-
-label{
-	margin-bottom: 15px;
-}
-
-input,
-input::-webkit-input-placeholder {
-    font-size: 11px;
-    padding-top: 3px;
-}
-
-.main-login{
- 	background-color: #fff;
-    /* shadows and rounded borders */
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-}
-
-.main-center{
- 	margin-top: 30px;
- 	margin: 0 auto;
- 	max-width: 330px;
-    padding: 40px 40px;
-}
-
-.login-button{
-	margin-top: 5px;
-}
-
-.login-button:hover{
-  background-color: #E61C64;//鼠标放置在btn上的背景颜色
-  border-color: #E61C64;//鼠标放置在btn上的边框颜色
-}
-
-
-.login-button > .active > a,
-.login-button > .active > a:hover,
-.login-button > .active > a:focus {
-  border-color: #E61C64;
-  background-color: #E61C64;
-}
-
-.login-button > .open > a,
-.login-button > .open > a:focus,
-.login-button> .open > a:hover {
-    background-color: #E61C64;
-    color: #E61C64;
-    border-color: #E61C64;
-}
-
-
-.login-register{
-	font-size: 16px;
-	text-align: center;
-}
-
-
-.login-register > a:hover,
-.login-register > a:focus {
-  color: #E61C64;
-  border-color: #E61C64;
-}
-
-
-.login-register > .active > a,
-.login-register > .active > a:hover,
-.login-register > .active > a:focus {
-  border-color: #E61C64;
-  background-color: #E61C64;
-}
-
-.login-register > .open > a,
-.login-register > .open > a:focus,
-.login-register > .open > a:hover {
-    background-color: #E61C64;
-    color: #E61C64;
-    border-color: #E61C64;
-}
-
-
-// another login and sign up //
+// for login and sign up //
 
 
 @import url(http://fonts.googleapis.com/css?family=Roboto);
@@ -571,7 +435,7 @@ input::-webkit-input-placeholder {
   background: #fff;
   border: 1px solid #d9d9d9;
   border-top: 1px solid #c0c0c0;
-  /* border-radius: 2px; */
+  border-radius: 2px;
   padding: 0 8px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
