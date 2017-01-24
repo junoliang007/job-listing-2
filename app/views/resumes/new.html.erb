@@ -1,11 +1,22 @@
-<h3> Submit Resume To <%= @job.title %> </h3>
+<html>
+<body>
+<section class="submit-resume">
+<div class="content-1">
+  <h1 class="submit-title"> Submit Resume To
+    <span class="jobs-title"><%= @job.title %></span> </h1>
 
-<hr>
+  <hr>
 
-<%= simple_form_for [@job, @resume] do |f| %>
-<%= f.input :content, :label => "Content" %>
-<%= f.input :attachment, :label => "Attachment(PDF only)" %>
-
-<%= f.submit "Submit" %>
-<% end %>
- 
+  <%= simple_form_for [@job, @resume] do |f| %>
+    <div class="content-2">
+       <%= f.input :content, :label => "Content" %>
+       <%= f.input :attachment, :label => "Attachment ( PDF only )" %>
+    </div>
+    <div class="sumbit-btn">
+       <%= f.submit "Submit"  %>
+    </div>
+  <% end %>
+</div>
+</section>
+</body>
+</html>

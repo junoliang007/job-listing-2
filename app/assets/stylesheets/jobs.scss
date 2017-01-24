@@ -125,3 +125,61 @@
     border-color: rgb(35,66,158) !important;
     text-align: center;
 }
+
+
+// for resume new page //
+
+.submit-resume {
+  height: 500px;
+  background-color: #edeeef
+}
+
+.content-1 {
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 30px;
+}
+
+.content-1 h1 {
+  font-family:  "Geneva", "Gill Sans", serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.content-2 {
+  font-family: "Geneva", "Gill Sans", serif;
+  font-size: 18px;
+  color: #595958
+}
+
+.resume_content {
+  width: 350px;
+  height: 100px;
+  text-align: left;
+  margin-left: 540px;
+}
+
+.resume_attachment {
+  margin-left: 540px;
+  text-align: left;
+}
+.content-1 .jobs-title {
+  font-family: "Geneva", serif;
+  font-size: 40px;
+  color: #E61C64;;
+}
+
+
+.sumbit-btn {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Geneva", "Gill Sans", serif;
+    font-size: 25px;
+}
+
+.sumbit-btn :hover {
+    color: #fff !important;
+    background-color: rgb(230,28,100) !important;
+    border-color: rgb(230,28,100) !important;
+    text-align: center;
+}
