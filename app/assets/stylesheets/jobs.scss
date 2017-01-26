@@ -76,7 +76,7 @@
       border-color: rgb(230,28,100) !important;
 }
 
-.apply-btn :hover,
+.apply-btn :hover
 .apply-btn :focus {
       color: #fff !important;
       background-color: rgb(51,122,183) !important;
@@ -139,7 +139,6 @@
     text-align: center;
 }
 
-
 // for resume new page //
 
 .submit-resume {
@@ -189,6 +188,7 @@
     text-align: center;
     font-family: "Geneva", "Gill Sans", serif;
     font-size: 25px;
+    
 }
 
 .sumbit-btn :hover {

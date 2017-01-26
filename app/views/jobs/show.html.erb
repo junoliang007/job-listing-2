@@ -1,6 +1,7 @@
 <html>
 <body>
-<section class="detail-panel">
+<div class="row">
+<div class="detail-panel">
   <div class="job-detail">
     <h1> <%= @job.title %> </h1>
 
@@ -10,6 +11,7 @@
     <%= link_to("Apply Now", new_job_resume_path(@job), :target => "_blank", :class => "btn btn-default") %>
   </div>
   </div>
-</section>
+</div>
+</div>
 </body>
 </html>

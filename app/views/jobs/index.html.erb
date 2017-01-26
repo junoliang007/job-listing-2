@@ -5,8 +5,10 @@
       <%= link_to("Sort by Up Salary", jobs_path(:order => "by_upper_bound"), :class => "btn btn-default") %>
       <%= link_to("Sort by Publish Time", jobs_path, :class => "btn btn-default") %>
    </div>
+<div class="row">
 <table class="table table-boldered table-striped custab" >
     <thead>
+
     <tr class="row-title">
       <th>Vacancy</th>
       <th>Apply</th>
@@ -38,6 +40,7 @@
   <% end %>
 </tbody>
 </table>
+</div>
 
 <div class="text-center">
   <%= will_paginate @jobs, renderer: BootstrapPagination::Rails %>
