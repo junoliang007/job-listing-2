@@ -1,8 +1,9 @@
 <div class="job-list">
   <div class="btn-group pull-right" role="group" aria-label="...">
-      <%= link_to("By Low Salary", jobs_path(:order => "by_lower_bound"), :class => "btn btn-default", :data => {:toggle => "button"}) %>
-      <%= link_to("By Up Salary", jobs_path(:order => "by_upper_bound"), :class => "btn btn-default") %>
-      <%= link_to("By Publish Time", jobs_path, :class => "btn btn-default") %>
+      <%= link_to welcome_index_path, class: "btn btn-default" do %><i class="fa fa-home"></i><% end %>
+      <%= link_to("Sort by Low Salary", jobs_path(:order => "by_lower_bound"), :class => "btn btn-default", :data => {:toggle => "button"}) %>
+      <%= link_to("Sort by Up Salary", jobs_path(:order => "by_upper_bound"), :class => "btn btn-default") %>
+      <%= link_to("Sort by Publish Time", jobs_path, :class => "btn btn-default") %>
    </div>
 <table class="table table-boldered table-striped custab" >
     <thead>
@@ -20,7 +21,7 @@
 
   <% @jobs.each do |job| %>
   <tr class="row-data">
-    <td width="20%"><%= link_to(job.title, job_path(job), :target => "_blank") %></td>
+    <td width="15%"><%= link_to(job.title, job_path(job), :target => "_blank") %></td>
     <td class="apply-btn" width="5%">
       <%= link_to("see detail", job_path(job), :target => "_blank", :class => "btn btn-default") %>
       </td>

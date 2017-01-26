@@ -11,7 +11,7 @@
 
 .pull-right {
       margin-top: 20px;
-      margin-right: 960px;
+      margin-right: 840px;
       padding-bottom: 20px;
 }
 
@@ -70,12 +70,25 @@
   color: #595958
 }
 
-.apply-btn :hover {
+.apply-btn .btn-default {
       color: #fff !important;
       background-color: rgb(230,28,100) !important;
       border-color: rgb(230,28,100) !important;
 }
 
+.apply-btn :hover,
+.apply-btn :focus {
+      color: #fff !important;
+      background-color: rgb(51,122,183) !important;
+      border-color: rgb(51,122,183) !important;
+}
+
+.apply-btn :active,
+.apply-btn :visited {
+     color: #fff !important;
+     background-color: rgb(230,28,100) !important;
+     border-color: rgb(230,28,100) !important;
+}
 
 // for jobs show page //
 

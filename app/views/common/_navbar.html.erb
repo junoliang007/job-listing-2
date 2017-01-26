@@ -21,8 +21,8 @@
 
       <ul class="nav navbar-nav navbar-right">
         <% if !current_user %>
-          <li><%= link_to("Login", new_user_session_path) %> </li>
-          <li><%= link_to("Sign Up", new_user_registration_path) %> </li>
+        <li class="login"><a class="log-in-btn" href="/users/sign_in">Login</a></li>
+        <li class="signup"><a class="sign-up-btn" href="/users/sign_up">Sign Up</a></li>
       </div>
         <% else %>
         <li class="dropdown">

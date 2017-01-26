@@ -331,7 +331,9 @@
   color: #E61C64;
 }
 
-.log-in-btn {
+.log-in-btn,
+.log-in-btn:visited,
+.log-in-btn:active {
     display: block;
     border: 1px solid rgba(230,28,100,0.86);
     background-color: transparent;
@@ -354,7 +356,9 @@
   color: #fff;
 }
 
-.sign-up-btn {
+.sign-up-btn,
+.sign-up-btn:visited,
+.sign-up-btn:active {
     display: block;
     border: 1px solid #E61C64;
     background-color: rgba(230,28,100,0.86);
@@ -405,8 +409,10 @@
 /****** LOGIN Panle ******/
 
 .-page {
+  // background-image: url('https://s-media-cache-ak0.pinimg.com/originals/41/99/17/41991707df213d0cc10736f48250cd06.jpg');
   height: 650px;
   background-color: #edeeef
+
 }
 
 .-panel {
