@@ -11,6 +11,7 @@
 
     <tr class="row-title">
       <th>Vacancy</th>
+      <th>Company</th>
       <th>Apply</th>
       <th>Salary</th>
       <th>Location</th>
@@ -24,6 +25,7 @@
   <% @jobs.each do |job| %>
   <tr class="row-data">
     <td width="15%"><%= link_to(job.title, job_path(job), :target => "_blank") %></td>
+    <td width="5%"><%= job.company %></td>
     <td class="apply-btn" width="5%">
       <%= link_to("see detail", job_path(job), :target => "_blank", :class => "btn btn-default") %>
       </td>

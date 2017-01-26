@@ -6,5 +6,6 @@ class AddMoreDetailsToJob < ActiveRecord::Migration[5.0]
     add_column :jobs, :working_exprience, :string
     add_column :jobs, :educational_requirement, :string
     add_column :jobs, :contact_email, :string
+    add_column :jobs, :company, :string
   end
 end
