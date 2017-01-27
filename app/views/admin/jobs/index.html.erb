@@ -24,7 +24,7 @@
       <%= link_to(job.title, admin_job_path(job)) %>
     </td>
     <td width="5%"> <%= job.company %></td>
-    <td width="10%"> <%= link_to(job.resumes.count) %></td>
+    <td width="10%"> <%= link_to(job.resumes.count, admin_job_resumes_path(job)) %></td>
     <td class="apply-btn" width="10%">
         <%= link_to("check", admin_job_resumes_path(job), :target => "_blank", :class => "btn btn-default") %>
         </td>
@@ -49,4 +49,8 @@
   <% end %>
 </table>
 </div>
+</div>
+
+<div class="text-center">
+  <%= will_paginate @job, renderer: BootstrapPagination::Rails %>
 </div>

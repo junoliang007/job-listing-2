@@ -266,7 +266,7 @@
   border: 1px solid #ccc;
   padding: 5px;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   box-shadow: 3px 3px 2px #ccc;
   transition: 0.5s;
 
@@ -276,7 +276,7 @@
   border: 1px solid #ccc;
   padding: 5px;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   box-shadow: 3px 3px 2px #ccc;
   transition: 0.5s;
 }
@@ -335,4 +335,9 @@
   // height: 100px;
   font-size: 20px;
   padding-top: 4px;
+}
+
+.text-center {
+  margin-right: 220px;
+  margin-top: 20px;
 }
