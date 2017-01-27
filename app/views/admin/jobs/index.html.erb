@@ -1,4 +1,5 @@
-<div class="pull-right">
+<div class="row">
+  <div class="pull-right">
   <%= link_to("+ New Vacancy", new_admin_job_path, :class => "btn btn-add") %>
 </div>
 
@@ -6,30 +7,33 @@
 
 <table class="table table-boldered table-striped custab" >
   <thead>
-    <tr>
+    <tr class="row-title">
       <th>Vacancy</th>
       <th>Company</th>
       <th>Resume NO.</th>
-      <th>Minimum Salary</th>
-      <th>Maximum Salary</th>
-      <th>Manage Option</th>
+      <th>Salary</th>
+      <th>Location</th>
       <th>Publish Time</th>
+      <th>Manager Option</th>
   </tr>
 </thead>
-
   <% @job.each do |job| %>
-  <tr>
-    <td>
+<tr class="row-data">
+    <td width="10%">
       <%= render_job_status(job) %>
 
       <%= link_to(job.title, admin_job_path(job)) %>
     </td>
-    <td> <%= job.company %></td>
-    <td> <%= link_to(job.resumes.count, admin_job_resumes_path(job)) %> </td>
-    <td> <%= job.wage_lower_bound %> </td>
-    <td> <%= job.wage_upper_bound %> </td>
-
-    <td>
+    <td width="5%"> <%= job.company %></td>
+    <td width="10%"> <%= link_to(job.resumes.count, admin_job_resumes_path(job)) %> </td>
+    <td width="10%">
+      <span class="salary-info">
+        <span class="fa fa-rmb"></span><%= job.wage_lower_bound %> - <%= job.wage_upper_bound%>
+      </span>
+    </td>
+    <td width="5%"><%= job.working_city %></td>
+    <td width="10%"><%= local_time(job.created_at, '%B %e, %Y') %></td>
+    <td width="15%">
       <%= link_to edit_admin_job_path(job), class: "btn btn-xs btn-info" do %><i class="fa fa-pencil"></i><% end %>
       <%= link_to admin_job_path(job), :method => :delete, :class => "btn btn-xs  btn-info", :data => { :confirm => "Are you sure?" } do %><i class="fa fa-trash-o"></i><% end %>
 
@@ -39,11 +43,8 @@
       <% else %>
       <%= link_to hide_admin_job_path(job), :method => :post,  :class => "btn btn-xs btn-info" do %><i class="fa fa-eye-slash"></i><% end %>
       <% end %>
-
-    </td>
-    <td>
-      <%= job.created_at %>
     </td>
   </tr>
   <% end %>
 </table>
+</div>

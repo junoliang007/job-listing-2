@@ -197,3 +197,43 @@
     border-color: rgb(230,28,100) !important;
     text-align: center;
 }
+
+
+// for admin job indext panel //
+
+
+.btn-add {
+    color: #fff;//字体颜色
+    background-color: #E61C64;///背景颜色
+    border-color: #E61C64;///边框颜色
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 500px;
+
+}
+
+.btn-add:hover,
+.btn-add:focus {
+    color: #fff;//字体颜色
+    background-color: #337ab7;//鼠标放置在btn上的背景颜色
+    border-color: #337ab7;//鼠标放置在btn上的边框颜色
+}
+
+.btn-add:active,
+.btn-add:visited {
+    color: #fff;//字体颜色
+    background-color: #337ab7;//鼠标放置在btn上的背景颜色
+    border-color: #337ab7;//鼠标放置在btn上的边框颜色
+}
+
+.row-data .btn-info {
+    color: #fff;//字体颜色
+    background-color: #919191;//背景颜色
+    border-color: #919191;//边框颜色
+}
+
+.row-data .btn-info:hover {
+    color: #fff;//字体颜色
+    background-color: #E61C64;//鼠标放置在btn上的背景颜色
+    border-color: #E61C64;//鼠标放置在btn上的边框颜色
+}
