@@ -15,10 +15,13 @@
     <%= render "common/flashes" %>
     <div class="row">
       <div class="col-md-2">
-        <ul class="nav nav-pills nav-stacked" style="max-width: 300px; padding-top:20px;">
-          <li class="active"><%= link_to("Jobs", admin_jobs_path ) %> </li>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="nav-panel"><i class="fa fa-home" aria-hidden="true"></i><a href="/">Back to Home</a></li>
+          <li class="nav-panel"><i class="fa fa-list-ul" aria-hidden="true"></i><a href="/admin/jobs">All Vacancy</a></li>
+          <li class="nav-panel"><i class="fa fa-eye" aria-hidden="true"></i><a href="/admin/jobs">Published Vacancy</a></li>
+          <li class="nav-panel"><i class="fa fa-eye-slash" aria-hidden="true"></i><a href="/admin/jobs">Hidden Vacancy</a></li>
         </ul>
-        
+
       </div>
 
       <div class="col-md-10">

@@ -188,7 +188,6 @@
     text-align: center;
     font-family: "Geneva", "Gill Sans", serif;
     font-size: 25px;
-
 }
 
 .sumbit-btn :hover {
@@ -201,32 +200,121 @@
 
 // for admin job indext panel //
 
-// .pull-right-add {
-//       margin-top: 20px;
-//       margin-right: 50px;
-//       padding-bottom: 20px;
-// }
+
+.nav-stacked {
+  max-width: 300px;
+  margin-top: 122px;
+  background-color: #808080;
+  border-radius: 3px;
+}
+
+.col-md-2 .nav-stacked a {
+  padding-left: 50px;
+
+}
+
+.nav-panel i {
+  color: #fff
+}
+
+.nav-panel .fa-home,
+.nav-panel .fa-list-ul,
+.nav-panel .fa-eye,
+.nav-panel .fa-eye-slash {
+  position: absolute;
+  color: #fff;
+  padding-top: 10px;
+  padding-right: 8px;
+  padding-left: 15px;
+  margin-left: 5px;
+}
+
+
+.nav-stacked .nav-panel {
+      color: #fff !important;
+      background-color: rgb(145,145,145) !important;
+      border-color: rgb(145,145,145) !important;
+      font-size: 20px;
+      border-radius: 4px;
+}
+
+.nav-stacked .nav-panel :hover,
+.nav-stacked .nav-panel :focus {
+      color: #fff !important;
+      background-color: rgb(230,28,100) !important;
+      border-color: rgb(230,28,100) !important;
+      border-radius: none;
+}
+
+.nav-panel i :hover,
+.nav-panel i :focus {
+      color: #fff !important;
+      background-color: rgb(230,28,100) !important;
+      border-color: rgb(230,28,100) !important;
+      border-radius: none;
+}
+
+.nav-panel :visited,
+.nav-panel :active {
+     color: #fff !important;
+     background-color: rgb(145,145,145) !important;
+     border-color: rgb(145,145,145) !important;
+
+}
+
+.table-panel .table-striped .custab {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  box-shadow: 3px 3px 2px #ccc;
+  transition: 0.5s;
+
+}
+
+.table-panel .custab {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  box-shadow: 3px 3px 2px #ccc;
+  transition: 0.5s;
+}
+
+
+.table-panel .custab:hover{
+  box-shadow: 3px 3px 0px transparent;
+  transition: 0.5s;
+}
+
+
+.pull-right-add {
+      margin-top: 40px;
+      margin-left: 950px;
+      padding-bottom: 0;
+      margin-bottom: 0
+}
 
 .pull-right-add .btn-add {
       color: #fff !important;
       background-color: rgb(230,28,100) !important;
       border-color: rgb(230,28,100) !important;
+      font-size: 20px;
 }
 
-//
-// .btn-add:hover,
-// .btn-add:focus {
-//   color: #fff !important;
-//   background-color: rgb(51,122,183) !important;
-//   border-color: rgb(51,122,183) !important;
-// }
-//
-// .btn-add:active,
-// .btn-add:visited {
-//   color: #fff !important;
-//   background-color: rgb(51,122,183) !important;
-//   border-color: rgb(51,122,183) !important;
-// }
+.pull-right-add :hover,
+.pull-right-add :focus {
+      color: #fff !important;
+      background-color: rgb(51,122,183) !important;
+      border-color: rgb(51,122,183) !important;
+}
+
+.pull-right-add .btn-add :visited,
+.pull-right-add .btn-add :active {
+     color: #fff !important;
+     background-color: rgb(230,28,100) !important;
+     border-color: rgb(230,28,100) !important;
+}
 
 .row-data .btn-info {
     color: #fff;//字体颜色
