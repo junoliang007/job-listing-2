@@ -24,7 +24,7 @@
 
   <% @jobs.each do |job| %>
   <tr class="row-data">
-    <td width="16%"><%= link_to(job.title, job_path(job), :target => "_blank") %></td>
+    <td width="18%"><%= link_to(job.title, job_path(job), :target => "_blank") %></td>
     <td width="10%"><%= job.company %></td>
     <td class="apply-btn" width="10%">
       <%= link_to("see detail", job_path(job), :target => "_blank", :class => "btn btn-default") %>
