@@ -11,8 +11,8 @@
       <th>Vacancy</th>
       <th>Company</th>
       <th>Resume NO.</th>
+      <th>Check Resume</th>
       <th>Salary</th>
-      <th>Location</th>
       <th>Publish Time</th>
       <th>Manager Option</th>
   </tr>
@@ -21,17 +21,18 @@
 <tr class="row-data">
     <td width="10%">
       <%= render_job_status(job) %>
-
       <%= link_to(job.title, admin_job_path(job)) %>
     </td>
     <td width="5%"> <%= job.company %></td>
-    <td width="10%"> <%= link_to(job.resumes.count, admin_job_resumes_path(job)) %> </td>
+    <td width="10%"> <%= link_to(job.resumes.count) %></td>
+    <td class="apply-btn" width="10%">
+        <%= link_to("check", admin_job_resumes_path(job), :target => "_blank", :class => "btn btn-default") %>
+        </td>
     <td width="10%">
       <span class="salary-info">
         <span class="fa fa-rmb"></span><%= job.wage_lower_bound %> - <%= job.wage_upper_bound%>
       </span>
     </td>
-    <td width="5%"><%= job.working_city %></td>
     <td width="10%"><%= local_time(job.created_at, '%B %e, %Y') %></td>
     <td width="15%">
       <%= link_to edit_admin_job_path(job), class: "btn btn-xs btn-info" do %><i class="fa fa-pencil"></i><% end %>
