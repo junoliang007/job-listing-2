@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20170114140712) do
     t.string   "working_exprience"
     t.string   "educational_requirement"
     t.string   "contact_email"
+    t.string   "company"
     t.boolean  "is_hidden",               default: true
   end
 

@@ -24,12 +24,12 @@
 
   <% @jobs.each do |job| %>
   <tr class="row-data">
-    <td width="15%"><%= link_to(job.title, job_path(job), :target => "_blank") %></td>
-    <td width="5%"><%= job.company %></td>
-    <td class="apply-btn" width="5%">
+    <td width="16%"><%= link_to(job.title, job_path(job), :target => "_blank") %></td>
+    <td width="10%"><%= job.company %></td>
+    <td class="apply-btn" width="10%">
       <%= link_to("see detail", job_path(job), :target => "_blank", :class => "btn btn-default") %>
       </td>
-    <td width="15%">
+    <td width="10%">
       <span class="salary-info">
         <span class="fa fa-rmb"></span><%= job.wage_lower_bound %> - <%= job.wage_upper_bound%>
       </span>
@@ -37,7 +37,7 @@
     <td width="5%"><%= job.working_city %></td>
     <td width="5%"><%= job.working_exprience %></td>
     <td width="5%"><%= job.educational_requirement %></td>
-    <td width="20%"><%= local_time(job.created_at, '%B %e, %Y %l:%M%p') %></td>
+    <td width="15%"><%= local_time(job.created_at, '%B %e, %Y') %></td>
   </tr>
   <% end %>
 </tbody>

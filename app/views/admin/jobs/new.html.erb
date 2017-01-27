@@ -3,7 +3,7 @@
 <%= simple_form_for [:admin, @job] do |f| %>
 
 <%= f.input :title, :label => "Vacancy" %>
-<%= f.input :company :label => "Company"%>
+<%= f.input :company, :label => "Company"%>
 <%= f.input :description, :label => "Description" %>
 <%= f.input :wage_lower_bound, :label => "Minimum Salary" %>
 <%= f.input :wage_upper_bound, :label => "Maximum Salary" %>
