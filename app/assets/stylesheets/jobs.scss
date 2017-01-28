@@ -164,6 +164,11 @@
   color: #595958
 }
 
+.add_title {
+  text-align: left;
+  font-size: 40px;
+}
+
 .resume_content {
   width: 350px;
   height: 100px;
@@ -340,4 +345,43 @@
 .text-center {
   margin-right: 220px;
   margin-top: 20px;
+}
+
+// for admin job new html //
+
+.job-admin-panel {
+  margin-top: 58px;
+  text-align: center;
+}
+
+.admin_title {
+  font-size: 40px;
+  margin-right: 370px;
+  padding-bottom: 10px;
+}
+
+.content-for-new-vacancy {
+  height: 900px;
+  background-color: #edeeef
+}
+
+.content-for-new-vacancy .admin-info {
+  text-align: left;
+  padding-top: 20px;
+  width: 720px;
+  padding-left: 230px;
+}
+
+.sumbit-add-btn {
+    margin-top: 50px;
+    font-family: "Geneva", "Gill Sans", serif;
+    font-size: 25px;
+    margin-right: 230px;
+}
+
+.sumbit-add-btn :hover {
+    color: #fff !important;
+    background-color: rgb(230,28,100) !important;
+    border-color: rgb(230,28,100) !important;
+
 }
