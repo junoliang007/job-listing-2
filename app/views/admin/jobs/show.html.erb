@@ -1,5 +1,16 @@
-<h1> <%= @job.title %> </h1>
+<!-- <h1> <%= @job.title %> </h1>
 
 <p>
   <%= simple_format(@job.description) %>
-</p>
+</p> -->
+
+<div class="resume-list-panel">
+  <div class="resume-list-check">
+<h2 class="resume-list"><%= @job.title %> </h2>
+
+<hr />
+<div class="job-list-concent">
+  <p class="job-list-description"><%= simple_format(@job.description) %></p>
+</div>
+</div>
+</div>

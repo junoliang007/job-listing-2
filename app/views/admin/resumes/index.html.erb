@@ -1,4 +1,10 @@
-<h2><%= @job.title %> - Resume List </h2>
+<div class="resume-list-panel">
+  <div class="resume-list-check">
+<h2 class="resume-list"><%= @job.title %> - Resume List </h2>
 
-<hr>
+<hr />
+<div class="content-for-new-vacancy">
 <%= render :partial => "resume", :collection => @resumes, :as => :resume %>
+</div>
+</div>
+</div>
